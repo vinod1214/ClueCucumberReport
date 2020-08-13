@@ -1,0 +1,7 @@
+stepDefinition\LoginPage.class
+testRunner\RunCukeTest.class
+util\Hooks.class
+stepDefinition\AddMRLToSuite.class
+stepDefinition\RemoveMRLFromSuite.class
+pageObjects\SuitesManagerPageObjects.class
+pageObjects\HomePageObjects.class

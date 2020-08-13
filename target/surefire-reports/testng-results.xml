@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="268127" started-at="2020-05-20T15:09:23 IST" finished-at="2020-05-20T15:13:51 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="RunCukeTest.feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testRunner.RunCukeTest@65e2dbf3]" name="feature" class="testRunner.RunCukeTest"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Surefire test" duration-ms="268127" started-at="2020-05-20T15:09:23 IST" finished-at="2020-05-20T15:13:51 IST">
+      <class name="testRunner.RunCukeTest">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:testRunner.RunCukeTest@65e2dbf3]" name="setUpClass" is-config="true" duration-ms="167" started-at="2020-05-20T15:09:23 IST" finished-at="2020-05-20T15:09:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testRunner.RunCukeTest@65e2dbf3]" name="feature" duration-ms="76058" started-at="2020-05-20T15:09:23 IST" description="Runs Cucumber Feature" data-provider="scenarios" finished-at="2020-05-20T15:10:39 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Regression Manager Login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Regression Manager Login Test"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testRunner.RunCukeTest@65e2dbf3]" name="feature" duration-ms="98083" started-at="2020-05-20T15:10:39 IST" description="Runs Cucumber Feature" data-provider="scenarios" finished-at="2020-05-20T15:12:17 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Regression Manager Add"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Regression Manager Tests"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testRunner.RunCukeTest@65e2dbf3]" name="feature" duration-ms="93671" started-at="2020-05-20T15:12:17 IST" description="Runs Cucumber Feature" data-provider="scenarios" finished-at="2020-05-20T15:13:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Regression Manager Remove"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Regression Manager Tests"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:testRunner.RunCukeTest@65e2dbf3]" name="tearDownClass" is-config="true" duration-ms="66" started-at="2020-05-20T15:13:51 IST" finished-at="2020-05-20T15:13:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testRunner.RunCukeTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
